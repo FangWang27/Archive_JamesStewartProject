@@ -1,0 +1,5 @@
+import(igraph)
+import(stringr)
+import(PairedData)
+importFrom("stats", "qnorm", "sd")
+exportPattern(c_score,c_dms,candidate_genes,permutation)
